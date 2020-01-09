@@ -4,6 +4,8 @@
     <list default="true" id="ed7e69f8-de41-4a14-a74f-f86e1ecf43cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios2/out/production/Ejercicios2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicios2/out/production/Ejercicios2/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios2/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicios2/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +19,7 @@
   <component name="ProjectId" id="1Vc8bGOE78wyqeahWZhC47xe40K" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Cadenas/Cadenas Adicionales" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,6 +49,9 @@
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

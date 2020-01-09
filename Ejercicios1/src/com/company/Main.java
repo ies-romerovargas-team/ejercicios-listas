@@ -78,14 +78,6 @@ public class Main
                     case 0:
                         salir = true;
                         break;
-                    case 9:
-                        for (int i = 0; i < 255; i++) {
-                            System.out.print(i + " \u001B["+ i +"m");
-                            System.out.print("P R U E B A");
-                            System.out.println("\u001B[0m");
-                        }
-
-                        break;
                     default:
                         System.out.println("ERROR: Solo números entre 0 y 8");
                 }
@@ -247,16 +239,6 @@ public class Main
                 li.add(a);
             }
         }while (a != -1);
-    }
-
-    private static void escribeBorraLista(List<Integer> li)
-    {
-        // Escribir todos los elementos de una lista e irlos borrando
-        while(li.size() > 0)
-        {
-            System.out.println(li.get(0));
-            li.remove(0);
-        }
     }
 
     private static void ExplicacionesClase()
