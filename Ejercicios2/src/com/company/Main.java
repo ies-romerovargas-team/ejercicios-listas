@@ -63,7 +63,8 @@ public class Main
                         escribeArray(insertaArrayEnArrayPro(array1, 4, array2));
                         break;
                     case 12:
-                        for (int i = 0; i < 100; i++) {
+                        // diez combinaciones ganadoras
+                        for (int i = 0; i < 10; i++) {
                             escribeLista(sorteoBonoloto());
                         }
                         break;
@@ -163,14 +164,15 @@ public class Main
         List<String> list2 = new ArrayList<String>();
         list2.clear();
         int posicion = 0;
-        while(list1.size()!=0)
+        while(list1.size() != 0)
         {
-            if(list2.size()>0) {
-                posicion = r.nextInt(list2.size());
+            if(list2.size() > 0) {
+                posicion = r.nextInt(list2.size() + 1);
             }
-            list2.add(posicion,list1.get(0));
+            list2.add(posicion, list1.get(0));
             list1.remove(list2.get(posicion));
         }
+
         return list2;
     }
 

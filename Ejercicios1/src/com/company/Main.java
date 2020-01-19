@@ -65,15 +65,17 @@ public class Main
                         break;
                     case 7:
                         leeListaN(l,10);
+                        System.out.print("Original: ");
                         escribeLista(l);
+                        System.out.print("Ordenada: ");
                         escribeLista(ordenaListaSeleccion(l));
                         break;
                     case 8:
-                        List<Integer> l2 = new LinkedList<>(Arrays.asList(3, 1, 85, 2, 3, -8, 3, 41, 4, -4));
+                        leeListaN(l,10);
                         System.out.print("Original: ");
-                        escribeLista(l2);
+                        escribeLista(l);
                         System.out.print("Ordenada: ");
-                        escribeLista(ordenaListaInsercion(l2));
+                        escribeLista(ordenaListaInsercion(l));
                         break;
                     case 0:
                         salir = true;
